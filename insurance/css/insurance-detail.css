@@ -1,0 +1,232 @@
+
+.breadcrumbs
+{
+	background:  url('../img/car.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.breadcrumb-container
+{
+	height: 34vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1.5rem;
+}
+
+.breadcrumb-container .hero-heading
+{
+	font-size: 3rem;
+}
+
+.insurance-features
+{
+	font-size: 0.8rem;
+	font-weight: 600;
+	line-height: 1.6;
+	margin: 1rem 1.7rem 1rem 0;
+}
+
+.insurance-features ion-icon
+{
+	color: #fcb900;
+}
+
+.desc-content .para-line
+{
+	margin: 1rem 0;
+}
+
+.desc-img-content
+{
+	margin: 2rem 0;
+}
+
+.insurance-detail-img
+{
+	border: none;
+	border-radius: 6px;
+}
+
+.single-policy
+{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin: 1.6rem 0;
+}
+
+.single-policy ion-icon
+{
+	color: #fcb900;
+	font-size: 2rem;
+}
+
+.agent-cta
+{
+	background: linear-gradient(rgba(10, 17, 79, 0.9), rgba(10, 17, 79, 0.9)), url("../img/hero-bg.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.agents
+{
+	margin: 1.5rem 0;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.agent .para-line
+{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.agent hr
+{
+	color: #fcb900;
+	height: 2px;
+	margin: 1rem 0;
+}
+
+.agent .agent-name, .agent .agent-email
+{
+	font-weight: 600;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+}
+
+.ins-pack-row
+{
+	margin: 1.6rem 0;
+}
+
+.ins-pack-name
+{
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 1.1;
+}
+
+.ins-pack-price
+{
+	margin-top: 1rem;
+	font-weight: 600;
+}
+
+.pack-cta
+{
+	border: none;
+	background: none;
+}
+
+.pack-cta a
+{
+	margin: 1.5rem 0;
+	color: #2540ce;
+	font-size: 1.1rem;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.insurance-packs .container hr
+{
+	color: #ffffff3d;
+	height: 1px;
+}
+
+.quot-img-col
+{
+	background: url(../img/additional-service-1.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.spacer
+{
+	height: 500px;
+}
+
+@media screen and (min-width: 789px)
+{
+
+	.breadcrumb-container 
+	{
+		height: 50vh;
+	}
+
+	.description
+	{
+		background-image: linear-gradient(
+			155deg,
+			
+			hsl(240, 60%, 47%) 48%,
+			hsl(4, 100%, 60%) 48%);
+  
+	}
+
+	.description .container .row
+	{
+		gap: 4rem;
+	}
+
+	.desc-content
+	{
+		width: 150% !important;
+	}
+
+	.insurance-features
+	{
+		font-size: 0.9rem;
+	}
+
+
+	.policies
+	{
+		display: grid;
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 2rem;
+	}
+
+	.single-policy
+	{
+		flex-direction: row;
+	}
+
+	.agents
+	{
+		flex-direction: row;
+		gap: 4rem;
+	}
+
+	.ins-pack-row
+	{
+		align-items: flex-start;
+	}
+
+	.insurance-features
+	{
+		margin-top: 0;
+	}
+
+
+	.quoatation
+	{
+		background-image: linear-gradient(
+			155deg,
+			hsl(234, 100%, 60%) 48%,
+			hsl(4, 100%, 60%) 48%);
+  
+	}
+
+}
